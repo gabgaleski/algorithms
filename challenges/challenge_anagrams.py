@@ -46,6 +46,3 @@ def merge_words(left, right):
     result.extend(right[j:])
 
     return "".join(result)
-
-
-is_anagram("cadb", "badc")
